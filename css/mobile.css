@@ -1,4 +1,8 @@
 /* Header */
+#cv-header {
+  padding: 3rem 2rem;
+}
+
 #cv-header .profile-image {
   float: none;
   width: 50%;
@@ -8,6 +12,16 @@
 #cv-header .profile-info {
   float: none;
   margin: auto;
+  padding: 2rem 0;
+}
+
+.profile-phone, .profile-email {
+  display: block;
+  margin: auto;
+}
+
+.dot-break {
+  display: none;
 }
 
 /* Experience Section */
@@ -40,6 +54,11 @@
 }
 
 /* Utility Classes */
+
+.container {
+  padding: 0 0.5rem;
+}
+
 .sect-text {
   padding: 20px 10px;
   text-align: left;
