@@ -34,6 +34,11 @@
   margin-bottom: 0;
 }
 
+/* Education */
+#education .sect-text {
+  padding: 0;
+}
+
 /* Utility Classes */
 .sect-text {
   padding: 20px 10px;
@@ -42,7 +47,7 @@
 
 p,
 ul li {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 h1 {
@@ -51,11 +56,11 @@ h1 {
 }
 
 .lrg-bold {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .lrg-light {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .sect-title {
