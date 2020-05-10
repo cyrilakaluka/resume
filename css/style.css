@@ -6,8 +6,8 @@
 
 html,
 body {
-  font-family: Calibri, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-  line-height: 4.0rem;
+  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  line-height: 4rem;
   background: #333;
   color: white;
   font-size: 62.5%;
@@ -18,7 +18,8 @@ h1 {
   line-height: 4rem;
 }
 
-p, ul li {
+p,
+ul li {
   font-size: 1.8rem;
 }
 
@@ -74,11 +75,11 @@ a {
   display: none;
 }
 
-.line-break {
+.record-break {
   border-style: none;
   border-bottom: #fff dotted 1rem;
   width: 8rem;
-  margin: 3rem auto;
+  margin: 4rem auto;
 }
 
 /* Header */
@@ -120,10 +121,6 @@ a {
   border: white solid 1px;
 }
 
-#experience .bullets {
-  padding-bottom: 30px;
-}
-
 #experience .company-role {
   margin-bottom: 20px;
 }
@@ -145,17 +142,22 @@ a {
   text-align: center;
 }
 
-#education .edu-sect {
-  padding-bottom: 20px;
+/* Mobile Show/Hidden */
+@media screen and (min-width: 1000px) {
+  .period-short,
+  .degree-short {
+    display: none;
+  }
 }
 
-/* Mobile Show/Hidden */
 @media screen and (max-width: 1000px) {
-  .mobile-show {
+  .period-short,
+  .degree-short {
     display: initial;
   }
 
-  .mobile-hidden {
+  .period-long,
+  .degree-long {
     display: none;
   }
 }

@@ -15,26 +15,13 @@
   padding: 2rem 0;
 }
 
-.profile-phone, .profile-email {
+.profile-phone,
+.profile-email {
   display: block;
   margin: auto;
 }
 
-.dot-break {
-  display: none;
-}
-
 /* Experience Section */
-#experience .role,
-#experience .company,
-#experience .period:not(.mobile-hidden),
-#education .course,
-#education .period:not(.mobile-hidden) {
-  float: none;
-  display: block;
-  text-align: center;
-}
-
 #experience .company {
   padding-top: 0;
 }
@@ -54,7 +41,6 @@
 }
 
 /* Utility Classes */
-
 .container {
   padding: 0 0.5rem;
 }
@@ -86,8 +72,28 @@ h1 {
   font-size: medium;
 }
 
-.line-break {
+.role,
+.company,
+.course,
+.period {
+  float: none !important;
+  display: block !important;
+  text-align: center !important;
+}
+
+.record-break {
   border-bottom-width: 0.6rem;
   margin: 1.5rem auto;
   width: 5rem;
+}
+
+/* Show/Hide on mobile */
+.period-short,
+.degree-short,
+.dot-break {
+  display: none !important;
+}
+
+.degree-long {
+  display: inline;
 }
